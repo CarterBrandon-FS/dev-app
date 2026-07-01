@@ -2,13 +2,19 @@
   "name": "dev-app",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "source": "src/index.html",
   "scripts": {
+    "start": "parcel",
+    "build": "parcel build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@faker-js/faker": "^10.5.0"
+    "@faker-js/faker": "^10.5.0",
+    "parcel": "^2.16.4"
+  },
+  "devDependencies": {
+    "buffer": "^6.0.3"
   }
 }
