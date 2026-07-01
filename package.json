@@ -5,15 +5,19 @@
   "source": "src/index.html",
   "browserslist": "> 0.5%, last 2 versions, not dead",
   "scripts": {
-    "start": "parcel",
+    "start": "serve dist",
     "build": "parcel build",
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "alias": {
+    "buffer": "buffer"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "@faker-js/faker": "^10.5.0",
-    "parcel": "^2.16.4"
+    "parcel": "^2.16.4",
+    "serve": "^14.2.6"
   },
   "devDependencies": {
     "buffer": "^6.0.3"
